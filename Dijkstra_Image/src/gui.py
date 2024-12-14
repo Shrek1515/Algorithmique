@@ -106,4 +106,4 @@ class interface_graphique:
                     outline="red"
                 )
         except ValueError:
-            self.etat_var.set("Veuillez entrer point correct.")
+            self.etat_var.set("Veuillez entrer un point correct.")
